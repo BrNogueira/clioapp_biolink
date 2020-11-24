@@ -1,0 +1,1809 @@
+{
+	"language_code": "pt",
+	"global": {
+		"submit": "Enviar",
+		"create": "Criar",
+		"delete": "Excluir",
+		"edit": "Editar",
+		"view": "Ver",
+		"cancel": "Cancelar",
+		"update": "Atualizar",
+		"enable": "Habilitar",
+		"disable": "Desabilitar",
+		"hidden": "Escondido",
+		"login": "Entrar",
+		"language": "Linguagem",
+		"choose_language": "Escolher Linguagem",
+		"close": "Fechar",
+		"search": "Procurar",
+		"go_back_button": "Voltar",
+		"no_data": "Não há dados disponíveis..",
+		"date_selector": "Seletor de data",
+		"yes": "Sim",
+		"no": "Não",
+		"active": "Ativar",
+		"disabled": "Desativar",
+		"date_range_selector": "Selecionar Data",
+		"export_csv": "Exportar para CSV",
+		"export_json": "Exportar para JSON",
+		"captcha_placeholder": "Texto Captcha",
+		"loading": "Carregando...",
+		"view_more": "Veja mais",
+		"view_x_more": "Veja %s mais..",
+		"clipboard_copy": "Copiar para área de transferência",
+		"verified": "Verificar",
+
+		"message_type": {
+			"error": "Erro!",
+			"info": "Informações!",
+			"success": "Sucesso!"
+		},
+
+		"info_message": {
+			"confirm_delete": "Tem certeza de que deseja excluir isso?",
+			"user_package_is_expired": "Seu pacote atual expirou e seu acesso é limitado. Por favor, obtenha um novo pacote!"
+		},
+
+		"success_message": {
+			"basic": "Seu comando solicitado foi executado com sucesso!",
+			"user_activated": "Sua conta agora está ativa!"
+		},
+
+		"error_message": {
+			"directory_not_writable": "O diretório <strong>%s</strong> não é gravável ",
+			"empty_fields": "Você deve preencher todos os campos!",
+			"invalid_captcha": "O código captcha não é válido!",
+			"invalid_file_type": "Tipo de arquivo inválido!",
+			"file_upload": "Ocorreu algo durante o upload da imagem e não conseguimos processá-la.",
+			"invalid_csrf_token": "Não foi possível concluir a ação porque o protetor expirou. Tente novamente!",
+			"basic": "Não foi possível executar o comando solicitado!"
+		},
+
+		"menu": {
+			"home": "Principal",
+			"logout": "Sair",
+			"settings": "Configurações",
+			"admin": "Admin",
+			"website": "Visitar website",
+			"admin_others": "Outros"
+		},
+
+		"accessibility": {
+			"toggle_navigation": "Alternar de navegação",
+			"logo_alt": "Logo do Website",
+			"captcha_alt": "Captcha",
+			"captcha_input": "Campo do Captcha"
+		},
+
+		"date": {
+			"CHANGE_THOSE_AT_YOUR_OWN_RESPONSIBILITY": "",
+			"datetime_readable_format": "%1$s %2$s, %3$s",
+			"datetime_ymd_format": "%1$s-%2$s-%3$s",
+			"datetime_his_format": "%1$s:%2$s:%3$s",
+			"datetime_ymd_his_format": "%1$s-%2$s-%3$s %4$s:%5$s:%6$s",
+
+			"now": "agora",
+			"today": "hoje",
+			"clear": "limpar",
+			"second": "segundo",
+			"seconds": "segundos",
+			"minute": "minuto",
+			"minutes": "minutos",
+			"hour": "hora",
+			"hours": "horas",
+			"day": "dia",
+			"days": "dias",
+			"month": "mês",
+			"months": "meses",
+			"year": "ano",
+			"years": "anos",
+			"time_ago": "%1$s %2$s atrás",
+			"time_until": "%1$s %2$s até",
+
+			"long_days": {
+				"1": "Segunda-feira",
+				"2": "Terça-feira",
+				"3": "Quarta-feira",
+				"4": "Quinta-feira",
+				"5": "Sexta-feira",
+				"6": "Sábado",
+				"7": "Domingo"
+			},
+
+			"short_days": {
+				"1": "Seg",
+				"2": "Ter",
+				"3": "Qua",
+				"4": "Qui",
+				"5": "Sex",
+				"6": "Sab",
+				"7": "Dom"
+			},
+
+			"long_months": {
+				"1": "Janeiro",
+				"2": "Feveiro",
+				"3": "Março",
+				"4": "Abril",
+				"5": "Maio",
+				"6": "Junho",
+				"7": "Julho",
+				"8": "Agosto",
+				"9": "Setembro",
+				"10": "Outubro",
+				"11": "Novembro",
+				"12": "Dezembro"
+			},
+
+			"short_months": {
+				"1": "Jan",
+				"2": "Fev",
+				"3": "Mar",
+				"4": "Abr",
+				"5": "Mai",
+				"6": "Jun",
+				"7": "Jul",
+				"8": "Ago",
+				"9": "Set",
+				"10": "Out",
+				"11": "Nov",
+				"12": "Dez"
+			}
+		},
+
+		"number": {
+			"decimal_point": ".",
+			"thousands_separator": ","
+		},
+
+		"email_notifications": {
+			"new_user_subject": "Novo Usuário Registrado!",
+			"new_user_body": "Ei!<br /><br />Um novo usuário acabou de se registrar no site!<br /><br />Bem-vindo <strong>%s</strong> com o <strong>%s</strong> email para o seu site!",
+			"new_payment_subject": "Novo pagamento via %s de %s %s!",
+			"new_payment_body": "Ei!<br /><br />Um usuário acabou de pagar <strong>%s %s</strong> para o site!<br /><br />Aqui está para mais ganhos!"
+		},
+
+		"emails": {
+			"account_activation": {
+				"subject": "Bem-vindo {{NAME}}! - Email de ativação",
+				"body": "Olá {{NAME}},<br /><br />Estamos felizes por você se juntar a nós! <br /><br />Mais um passo e você está pronto,<br /><br />você só precisa clicar no link a seguir para participar {{WEBSITE_TITLE}}<br /><br /><a href=\"{{ACTIVATION_LINK}}\">ative sua conta</a><br /><br />Greetings em {{WEBSITE_TITLE}}!"
+			},
+
+			"lost_password": {
+				"subject": "Redefina sua senha - {{WEBSITE_TITLE}}",
+				"body": "Ei {{NAME}},<br /><br />Este é o link para redefinir sua senha: <a href=\"{{LOST_PASSWORD_LINK}}\">Redefinir senha</a><br /><br />Se você não solicitou isso, pode ignorá-lo!<br /><br />Saudações de {{WEBSITE_TITLE}}!"
+			}
+		},
+
+		"package_settings": {
+			"no_ads": "<i class=\"fa fa-eye-slash fa-fw mr-1\"></i> Sem Ads",
+			"removable_branding": "<i class=\"fa fa-eye-slash fa-fw mr-1\"></i> Marca Clio Link removível",
+			"custom_branding": "<i class=\"fa fa-ad fa-fw mr-1\"></i> Marca personalizada Clio Link",
+			"custom_colored_links": "<i class=\"fa fa-paint-brush fa-fw mr-1\"></i> Cores personalizadas para os seus links",
+			"statistics": "<i class=\"fa fa-chart-bar fa-fw mr-1\"></i> Estatísticas detalhadas",
+			"google_analytics": "<i class=\"fab fa-google fa-fw mr-1\"></i> Integração com o Google Analytics",
+			"facebook_pixel": "<i class=\"fab fa-facebook fa-fw mr-1\"></i> Integração com o Pixel do Facebook",
+			"custom_backgrounds": "<i class=\"fa fa-fill fa-fw mr-1\"></i> Fundos personalizados",
+			"verified": "<i class=\"fa fa-check-circle fa-fw mr-1\"></i> Marca de verificação da conta",
+			"scheduling": "<i class=\"fa fa-clock fa-fw mr-1\"></i> Agendamento de Links",
+
+			"unlimited_projects_limit": "<i class=\"fa fa-infinity fa-fw mr-1\"></i> Projetos Ilimitados",
+			"projects_limit": "<strong>%s</strong> Projetos",
+
+			"unlimited_biolinks_limit": "<i class=\"fa fa-infinity fa-fw mr-1\"></i> Bio Links ilimitados",
+			"biolinks_limit": "<strong>%s</strong> Páginas Clio Link",
+
+			"unlimited_links_limit": "<i class=\"fa fa-infinity fa-fw mr-1\"></i> Links Ilimitados",
+			"links_limit": "<strong>%s</strong> Links"
+		}
+	},
+
+	"page": {
+		"breadcrumb": "Páginas",
+		"print": "Print",
+
+		"estimated_reading_time": "%s ler",
+		"last_date": "Última atualização em: %s"
+	},
+
+	"pages": {
+		"title": "Páginas",
+		"header": "Centro de recursos",
+		"subheader": "Aqui você pode encontrar recursos úteis da página, dependendo de suas necessidades.",
+
+		"index": {
+			"breadcrumb": "Páginas",
+
+			"popular_pages": {
+				"header": "Páginas populares",
+				"total_views": "(%s visualizações)"
+			},
+
+			"pages_categories": {
+				"header": "Categorias",
+				"total_pages": "%s páginas disponíveis"
+			}
+		},
+
+		"pages_category": {
+			"breadcrumb": "Categoria de Páginas"
+		}
+	},
+
+	"package": {
+		"title": "Pacote",
+		"header_new": "Escolha seu pacote",
+		"subheader_new": "Selecione um pacote para continuar sua assinatura.",
+		"header_renew": "Renove seu pacote",
+		"subheader_renew": "Selecione um pacote para renovar sua assinatura.",
+		"header_upgrade": "Atualize seu pacote",
+		"subheader_upgrade": "Selecione um pacote para atualizar sua assinatura.",
+
+		"display": {
+			"per_month": "/ meses",
+			"annual_price": "Preço anual: %s %s"
+		},
+
+		"free": {
+			"price": "Funções"
+		},
+
+		"trial": {
+			"price": "Teste"
+		},
+
+		"button": {
+			"choose": "Cadastrar-se",
+			"disabled": "Desativar",
+			"already_free": "Cadastrar Agora"
+		}
+	},
+
+	"pay": {
+		"title": "Pagar",
+		"header": "Você escolheu o <span class=\"underline\">%s</span> pacote",
+		"subheader": "Você está quase pronto.",
+		"accept": "Confirmo que li e compreendi o %s e %s do site.",
+
+		"free": {
+			"free_already": "Seu pacote já é este, certifique-se de escolher outro!",
+			"other_package_not_expired": "Seu pacote atual ainda não expirou, você receberá o pacote gratuito depois que ele expirar!",
+			"choose_another_package": "Escolha outro Pacote"
+		},
+
+		"trial": {
+			"trial_done": "Sua opção de avaliação já foi usada, você não pode mais renová-la.",
+			"other_package_not_expired": "Seu pacote atual ainda não expirou; se você iniciar o teste, ele será substituído!",
+			"choose_another_package": "Escolha outro Pacote",
+			"trial_start": "Inicie sua avaliação"
+		},
+
+		"custom_package": {
+			"payment_plan": "Escolha seu plano de pagamento",
+			"monthly": "Pagamentos mensais",
+			"annual": "Pagamentos anuais",
+			"annual_savings": "Você salva %s %s",
+			"payment_processor": "Escolha sua maneira favorita de pagar",
+			"paypal_processor": "PayPal",
+			"stripe_processor": "Stripe",
+			"no_processor": "Nenhum processador de pagamento está disponível no momento.",
+			"payment_type": "Selecione seu tipo de pagamento preferido",
+			"one_time_type": "Pagamento único",
+			"recurring_type": "Pagamento recorrente",
+			"pay": "Gerar Pagamento"
+		},
+
+		"success_message": {
+			"package_trial_start": "Seu período de teste acabou de começar!",
+			"package_custom_start": "Seu pagamento foi realizado e sua nova associação foi ativada!",
+			"package_custom_will_start": "Seu pagamento foi enviado e sua nova associação será ativada!"
+		},
+
+		"error_message": {
+			"canceled_payment": "Parece que você cancelou o pagamento por algum motivo.",
+			"failed_payment": "Algo não deu certo, tente novamente se isso persistir, entre em contato com o administrador do site."
+		}
+	},
+
+	"account": {
+		"title": "Conta",
+		"menu": "Conta",
+
+		"package": {
+			"header": "%s Pacote",
+			"subheader": "termina em %s",
+			"upgrade_package": "Pacote de atualização",
+			"renew_package": "Renovar/Alterar pacote",
+			"renew": "Renovar/Atualizar"
+		},
+
+		"settings": {
+			"header": "Configurações",
+			"subheader": "Configurações básicas de perfil da sua conta.",
+
+			"email": "Email",
+			"name": "Nome",
+			"timezone": "Fuso horário",
+			"timezone_help": "Sua maneira preferida de exibir datas."
+		},
+
+		"change_password": {
+			"header": "Mudar senha",
+			"subheader": "Se você não quiser alterar sua senha, não preencha nenhum desses campos abaixo.",
+
+			"current_password": "senha atual",
+			"new_password": "Nova Senha",
+			"repeat_password": "Repetir senha"
+		},
+
+		"delete": {
+			"header": "Excluir conta",
+			"subheader": "Ao excluir a conta, todos os seus dados armazenados serão excluídos. <br /> Esta ação é irreversível depois de concluída.",
+			"confirm_message": "Tem certeza de que deseja excluir sua conta?"
+		},
+
+		"error_message": {
+			"invalid_current_password": "Sua senha atual não é válida!",
+			"short_password": "Sua senha atual não é válida! Sua senha é muito curta, você deve ter pelo menos 6 caracteres!",
+			"passwords_not_matching": "Suas senhas inseridas não correspondem"
+		},
+
+		"success_message": {
+			"account_updated": "Sua conta foi atualizada!",
+			"subscription_canceled": "Sua assinatura recorrente foi cancelada!"
+		}
+	},
+
+	"account_package": {
+		"title": "Pacote da conta",
+		"menu": "Pacote",
+		"header": "Pacote da conta",
+
+		"package": {
+			"renews": "O pacote será renovado em %s",
+			"expires": "O pacote termina em %s"
+		},
+
+		"cancel": {
+			"header": "Cancelar assinatura",
+			"subheader": "Ao cancelar sua assinatura, nenhum pagamento adicional será feito. <br /> Você ainda terá acesso aos seus recursos pagos até a data de vencimento.",
+			"cancel": "Cancelar assinatura",
+			"confirm_message": "Tem certeza de que deseja cancelar o próximo faturamento da sua assinatura?"
+		},
+
+		"code": {
+			"header": "Resgatar",
+			"subheader": "O resgate de um código cancelará o seu pacote atual e o levará automaticamente para o novo pacote associado ao código.",
+
+			"input": "Código de redenção",
+			"submit": "Ativar"
+		},
+
+		"success_message": {
+			"code_redeemed": "O código foi resgatado com sucesso!",
+			"code": "Código resgatável está disponível: %s para %s dias."
+		},
+
+		"error_message": {
+			"code_invalid": "Este código resgatável é inválido...",
+			"code_used": "Você já usou este código resgatável..."
+		}
+	},
+
+	"account_payments": {
+		"title": "Pagamentos de Conta",
+		"menu": "Pagamentos",
+		"header": "Pagamentos de Conta \uD83D\uDCB0",
+		"subheader": "Todos os pagamentos feitos em sua conta.",
+
+		"payments": {
+			"processor": "Processador",
+			"type": "Tipo",
+			"email": "Email",
+			"date": "Data",
+			"name": "Nome completo",
+			"amount": "Montante",
+			"package_id": "Pacote",
+			"nr": "#",
+			"invoice": "Fatura"
+		},
+
+		"info_message": {
+			"no_payments": "No momento não há pagamentos para mostrar..."
+		}
+	},
+
+	"account_logs": {
+		"title": "Registros da conta",
+		"menu": "Histórico",
+		"header": "Registros de contas 📚",
+		"subheader": "Sua última atividade gravada",
+
+		"logs": {
+			"type": "Tipo",
+			"ip": "IP",
+			"date": "Data"
+		},
+
+		"info_message": {
+			"no_logs": "No momento não há registros para mostrar..."
+		}
+	},
+
+	"account_details": {
+		"title": "Detalhes da conta",
+		"menu": "Detalhes Extra",
+		"header": "Detalhes da conta",
+
+		"payments": {
+			"header": "Seus pagamentos 💰",
+			"processor": "Processador",
+			"type": "Tipo",
+			"email": "Email",
+			"date": "Data",
+			"name": "Nome completo",
+			"amount": "Montante",
+			"package_id": "Pacote",
+			"nr": "#",
+			"invoice": "Fatura"
+		},
+
+		"logs": {
+			"header": "Sua atividade 📚",
+			"subheader": "Sua última atividade gravada",
+			"type": "Tipo",
+			"ip": "IP",
+			"date": "Data"
+		},
+
+		"info_message": {
+			"no_payments": "No momento não há pagamentos para mostrar..."
+		}
+	},
+
+	"invoice": {
+		"print": "Print",
+		"invoice": "FATURA",
+		"invoice_nr": "Nº da fatura",
+		"invoice_date": "Data",
+
+		"vendor": {
+			"header": "Fornecedor",
+			"name": "Nome",
+			"address": "Endereço",
+			"city": "Cidade",
+			"county": "País",
+			"zip": "ZIP",
+			"country": "País",
+			"email": "Email",
+			"phone": "Telefone"
+		},
+
+		"customer": {
+			"header": "Cliente",
+			"name": "Nome",
+			"email": "Email"
+		},
+
+		"table": {
+			"item": "Item",
+			"amount": "Montante",
+			"item_value": "%s Pacote, %s",
+			"total": "Total",
+			"paid_via": "Pagamento via %s"
+		}
+	},
+
+	"reset_password": {
+		"title": "Redefinir senha",
+		"header": "Redefinir senha",
+
+		"form": {
+			"new_password": "Nova senha",
+			"repeat_password": "Repita a senha"
+		},
+
+		"error_message": {
+			"short_password": "Sua senha é muito curta, você deve ter pelo menos 6 caracteres!",
+			"passwords_not_matching": "Suas senhas inseridas não correspondem"
+		},
+
+		"success_message": {
+			"password_updated": "Sua senha foi atualizada!"
+		}
+	},
+
+	"login": {
+		"menu": "Entrar",
+		"title": "Entrar",
+		"header": "Entrar",
+
+		"form": {
+			"email": "Endereço de email",
+			"email_placeholder": "email@domain.com",
+			"password": "Senha",
+			"password_placeholder": "Senha",
+			"remember_me": "Lembrar senha",
+			"login": "Entrar"
+		},
+
+		"display": {
+			"register": "Não possui uma conta? %s",
+			"register_help": "Registre-se",
+
+			"lost_password": "Senha perdida",
+			"resend_activation": "Reenviar ativação",
+			"facebook": "%s Entrar com o Facebook",
+			"instagram": "%s Entrar com Instagram"
+		},
+
+		"info_message": {
+			"logged_in": "Bem-vindo(a) de volta"
+		},
+
+		"error_message": {
+			"wrong_login_credentials": "Sua combinação de login não é inválida!",
+			"user_not_active": "Sua conta não está confirmada ou banida!",
+			"email_is_null": "Sua conta do Facebook não possui um email associado, não foi possível concluir o processo de login do Facebook."
+		}
+	},
+
+	"lost_password": {
+		"title": "Senha perdida",
+		"header": "Senha perdida",
+		"return": "Voltar ao Login",
+
+		"form": {
+			"email": "Email",
+			"email_placeholder": "email@domain.com"
+		},
+
+		"notice_message": {
+			"success": "Enviamos um email para o endereço dessa conta, se uma conta estiver registrada!"
+		}
+	},
+
+	"resend_activation": {
+		"title": "Reenviar ativação",
+		"header": "Reenviar Email de Ativação",
+		"return": "Voltar ao Login",
+
+		"form": {
+			"email": "Email",
+			"email_placeholder": "email@domain.com"
+		},
+
+		"notice_message": {
+			"success": "Enviamos um e-mail para o endereço dessa conta, se uma conta estiver registrada!"
+		}
+	},
+
+	"register": {
+		"title": "Registrar",
+		"menu": "Registrar",
+		"header": "Registrar",
+		"login": "Já tem uma conta?",
+
+		"form": {
+			"name": "Nome",
+			"name_placeholder": "Seu nome completo",
+			"email": "Email",
+			"email_placeholder": "email@domain.com",
+			"password": "Senha",
+			"password_placeholder": "Senha",
+			"repeat_password": "Repetir a senha",
+			"accept": "Confirmo que li e compreendi o %s e %s do site.",
+			"terms_and_conditions": "Termos e Condições",
+			"privacy_policy": "Política de Privacidade",
+			"register": "Registro"
+		},
+
+		"error_message": {
+			"username_length": "O nome de usuário deve ter entre 3 e 32 caracteres!",
+			"name_length": "O nome deve ter entre 3 e 32 caracteres!",
+			"email_exists": "Lamentamos, mas esse email já está sendo usado!",
+			"invalid_email": "Você digitou um email inválido!",
+			"short_password": "Sua senha é muito curta, você deve ter pelo menos 6 caracteres!",
+			"passwords_not_matching": "Suas senhas inseridas não correspondem",
+			"username_characters": "Você só pode usar letras, dígitos e o '.', '_' caracteres para o seu campo de nome de usuário",
+			"email_verifier_api": "Você não tem permissão para usar endereços de email descartáveis 🤭"
+		},
+
+
+		"success_message": {
+			"registration": "Sua conta foi criada, verifique seu email para o link de ativação! (Verifique também a sua pasta de spam)",
+			"login": "Bem-vindo à nossa plataforma, somos gratos por tê-lo aqui!"
+		}
+	},
+
+	"dashboard": {
+		"title": "Painel de Controle",
+		"menu": "Painel de Controle",
+		"breadcrumb": "Painel de Controle",
+
+		"header": {
+			"header": "Seu Painel de Controle",
+			"package": "Seu pacote atual.",
+			"package_expiration_date": "Seu pacote expira",
+			"package_expiration_date_never": "O pacote não expira",
+			"renew": "Renovar/Atualizar",
+			"clicks": "Total de cliques em todos os seus links.",
+			"links": "Total de links em sua conta."
+		},
+
+		"projects": {
+			"header": "Meus projetos",
+			"subheader": "Um projeto pode conter várias páginas de Biolinks ou links encurtados.",
+			"create": "Criar Projeto",
+
+			"name": "Nome",
+			"domain": "Domínio",
+			"date": "Criado",
+
+			"no_projects": "Não há projetos no momento, por que não criar um?"
+		}
+	},
+
+	"project": {
+		"title": "Projeto %s",
+		"breadcrumb": "Projeto",
+
+		"header": {
+			"header": "Projeto %s",
+			"subheader": "Todos os links criados neste Projeto."
+		},
+
+		"links": {
+			"header": "Projeto Links",
+			"create": "Criar",
+
+			"clicks": "Total de cliques exclusivos",
+			"type": "Tipo",
+			"date": "Lançado em",
+			"is_enabled": "Status",
+			"is_enabled_tooltip": "Alterar o status",
+
+			"no_links": "Não há links para este projeto, por que não criar um?"
+		},
+
+		"error_message": {
+			"projects_limit": "Você excedeu o limite de projetos em seu pacote."
+		}
+
+	},
+
+	"link": {
+		"branding": "Desenvolvido por Clio Link",
+		"title": "%s Link",
+		"breadcrumb_link": "Link",
+		"breadcrumb_biolink": "Clio Link",
+
+		"header": {
+			"header": "%s",
+			"subheader": "Seu link é %s",
+			"links": "Voltar para a Lista de Links",
+
+			"settings_tab": "Configurações",
+			"links_tab": "Links",
+			"biolinks_settings": "Voltar para Clio Link"
+		},
+
+		"settings": {
+			"header": "Configurações",
+			"link": "Configurações",
+			"breadcrumb": "Configurações",
+
+			"location_url": "Registro Url",
+			"location_url_placeholder": "https://domain.com/demo/long-url-demo",
+			"url": "URL curto",
+			"url_placeholder": "seu-alias-personalizado",
+			"url_help": "Deixe em branco para ser gerado um link aleatoriamente.",
+			"schedule": "Cronograma",
+			"schedule_help": "Defina uma data exata em que o link funcionará.",
+			"start_date": "Data de início",
+			"end_date": "Data final",
+			"image": "Avatar",
+			"image_help": "",
+			"image_status": "Sua imagem foi selecionada.",
+			"image_remove": "Remover a imagem selecionada",
+			"title": "Título",
+			"description": "Descrição",
+			"text_color": "Cor do Texto",
+			"background_type": "Tipo de fundo",
+			"background_type_preset": "Predefinição",
+			"background_type_color": "Customização de cor",
+			"background_type_gradient": "Gradiente personalizado",
+			"background_type_gradient_color_one": "Cor Um",
+			"background_type_gradient_color_two": "Cord Dois",
+			"background_type_image": "Imagem personalizada",
+			"display_branding": "Exibir marca",
+			"branding": {
+				"name": "Nome da marca",
+				"name_help": "Deixe em branco para ter a marca do site padrão.",
+				"url": "URL da marca"
+			},
+			"google_analytics": "ID do Google Analytics",
+			"google_analytics_help": "Ative o rastreamento com o Google Analytics adicionando seu ID de análise (ex: Example: UA-22222222-33).",
+			"facebook_pixel": "Facebook Pixel",
+			"facebook_pixel_help": "Ative o pixel do Facebook adicionando apenas o seu ID de pixel do Facebook."
+		},
+
+		"links": {
+			"link_sort": "Toque e arraste para reordenar.",
+			"no_links": "😕 Não há links criados no momento.",
+			"settings": "Configurações",
+			"switch_status": "Mudar Status"
+		},
+
+		"statistics": {
+			"breadcrumb": "Estastísticas",
+
+			"header": "Estastísticas",
+			"link": "Estastísticas",
+			"no_logs": "No momento não há estatísticas 😕.",
+			"missing_statistics_package": "Infelizmente você não tem acesso a estatísticas detalhadas com seu pacote atual 😔.",
+
+			"clicks_chart": "Gráfico de cliques",
+			"impression": "Impressões",
+			"unique": "Únicos",
+
+			"location": "Localizações",
+			"location_help": "Países detectados que acessaram o link.",
+			"os": "Sistemas operacionais",
+			"os_help": "Descubra qual sistema operacional é o mais popular entre seus visitantes.",
+			"browser": "Navegadores",
+			"browser_help": "Encontre quais navegadores seus visitantes estão usando.",
+			"referer": "Referers",
+			"referer_help": "De onde vem o seu tráfego?",
+			"referer_direct": "Direto, Email, SMS"
+		},
+
+		"success_message": {
+			"settings_updated": "Atualização bem sucedida!"
+		},
+
+		"error_message": {
+			"blacklisted_url": "Este URL personalizado não está disponível para uso!",
+			"blacklisted_domain": "Este domínio foi colocado na lista negra, você não pode usá-lo!",
+			"blacklisted_keyword": "Este URL personalizado está na lista negra!",
+			"blacklisted_location_url": "Este URL foi colocado na lista negra, você não pode usá-lo!",
+			"invalid_location_url": "O link digitado é inválido!"
+		},
+
+		"biolink": {
+			"name": "Clio Link",
+			"icon": "fa fa-hashtag",
+			"color": "#0089ff",
+
+			"image_alt": "Avatar",
+			"title_default": "Meus links em destaque",
+			"description_default": "",
+
+			"link": {
+				"name": "Link",
+				"icon": "fa fa-link",
+				"color": "#00526b",
+
+				"name_default": "Seu próprio link aqui"
+			},
+
+			"twitch": {
+				"name": "Twitch",
+				"icon": "fab fa-twitch",
+				"color": "#6441a5"
+			},
+
+			"youtube": {
+				"name": "YouTube",
+				"icon": "fab fa-youtube",
+				"color": "#ff0000"
+			},
+
+			"soundcloud": {
+				"name": "SoundCloud",
+				"icon": "fab fa-soundcloud",
+				"color": "#ff8800"
+			},
+
+			"vimeo": {
+				"name": "Vimeo",
+				"icon": "fab fa-vimeo",
+				"color": "#1ab7ea"
+			},
+
+			"spotify": {
+				"name": "Spotify",
+				"icon": "fab fa-spotify",
+				"color": "#1db954"
+			}
+		},
+
+		"link": {
+			"name": "Link",
+			"icon": "fa-link",
+			"color": "#00526b"
+		}
+	},
+
+	"index": {
+		"title": "Clio Link - Transforme sua Bio do Instagram",
+		"header": "Transforme sua Bio do Insta com o Clio Link <br />",
+		"subheader": "Com o Clio Link você tem a oportunidade de oferecer todas as informações e serviços que seu cliente precisa com apenas um link.",
+		"sign_up": "Quero meu Clio Link ⚡️",
+		"breadcrumb": "Principal",
+
+		"presentation": {
+			"header": "Transforme sua Bio do Instagram <u></u>",
+			"subheader": "Além de criar um Bio atrativa com vários links, você ainda consegue integrar com o Pixel do Facebook e o Google Analytics e rastrear quem está acessando sua Bio do Instagram."
+		},
+
+		"presentation2": {
+			"header": "Gerencie vários projetos",
+			"subheader": "Com o Clio Link você consegue administrar vários projetos! Você pode ter várias contas de suas empresas ou clientes acessando de um só lugar."
+		},
+
+		"presentation3": {
+			"header": "Com o Clio Link você consegue encurtar links",
+			"subheader": "Sim! Você também pode usar nosso serviço como encurtador de links. Além de criar links mais atrativos na hora de anunciar, você consegue analisar as estatísticas e os dados de quem acessou seu link. "
+		},
+
+		"presentation4": {
+			"header": "Customize jeito que você quiser!",
+			"subheader": "Adicione seu próprio toque à sua página de Bio Links com nosso editor e se destaque da multidão."
+		},
+
+		"presentation5": {
+			"header": "Acompanhe as estatísticas do seu perfil diariamente",
+			"subheader": "Conheça seu público-alvo com estatísticas de desempenho detalhadas e, você ainda pode integrar com o Google Analytics e com o Pixel do Facebook."
+		},
+
+		"setup": {
+			"header": "Fácil instalação e integração em qualquer site.",
+			"description": "Estes são apenas alguns exemplos. <br />Qualquer site pode executar suas notificações.",
+
+			"shopify": "Shopify",
+			"wordpress": "Wordpress",
+			"zapier": "Zapier",
+			"squarespace": "Squarespace"
+		},
+
+		"tools": {
+			"header": "Suas ferramentas gratuitas de marketing",
+			"subheader": "Escolha entre uma ampla variedade de notificações.",
+
+			"preview": "Visualização de notificação",
+			"preview_description": "Escolha qualquer tipo de notificação e visualize-a ao vivo."
+		},
+
+		"pricing": {
+			"header": "Escolha o seu Pacote ✅",
+			"subheader": "Obtenha o plano que mais combina com você."
+		}
+	},
+
+	"admin_pages_categories": {
+		"header": "Categorias de páginas",
+		"create": "Criar categoria",
+
+		"pages_categories": {
+			"pages_category": "Categoria",
+			"total_pages": "%s Páginas"
+		},
+
+		"input": {
+			"url": "Slug",
+			"url_placeholder": "URL-da-sua-página-de-categoria",
+			"title": "Título",
+			"description": "Pequena descrição",
+			"icon": "Ícone",
+			"icon_placeholder": "ex: fa fa-plane",
+			"icon_help": "Ícone Impressionante de fonte, deixe em branco para nenhum ícone.",
+			"order": "Ordem",
+			"order_help": "Organize facilmente as categorias de páginas com números. A exibição no site é ascendente."
+		}
+	},
+
+	"admin_pages_category_create": {
+		"title": "Criar categoria de páginas",
+		"header": "Crie uma nova categoria de páginas"
+	},
+
+	"admin_pages_category_update": {
+		"title": "Atualizar categoria de páginas",
+		"header": "Atualizar categoria de páginas"
+	},
+
+	"admin_pages_category_delete_modal": {
+		"header": "Excluir categoria de páginas",
+		"subheader": "Todas as páginas desta categoria também serão excluídas. Essa ação não pode ser desfeita.",
+
+		"success_message": "A exclusão da categoria de páginas foi realizada com sucesso!"
+	},
+
+	"admin_pages": {
+		"title": "Gerenciamento de Páginas",
+		"menu": "Páginas",
+		"header": "Gerenciamento de Páginas",
+		"create": "Criar Página",
+
+		"pages": {
+			"page": "Página",
+			"position": "Posição",
+			"position_top": "Menu de cima",
+			"position_bottom": "Menu de baixo",
+			"position_hidden": "Escondido",
+			"total_views": "%s visualizações"
+		},
+
+		"input": {
+			"title": "Título",
+			"description": "Descrição curta",
+			"url_internal": "Slug",
+			"url_internal_placeholder": "ex: page-url",
+			"url_external": "URL externo",
+			"url_external_placeholder": "ex: https://domain.com/",
+			"content": "Conteúdo",
+			"position": "Posição",
+			"position_top": "Menu de cima",
+			"position_bottom": "Menu de baixo",
+			"position_hidden": "Escondido",
+			"type": "Tipo",
+			"type_internal": "Interno",
+			"type_external": "Externo",
+			"pages_category_id": "Categoria",
+			"pages_category_id_null": "Sem categoria",
+			"order": "Ordem",
+			"order_help": "Organize facilmente páginas com números. A exibição no site é ascendente.",
+			"date": "Primeiro criado em",
+			"last_date": "Última edição em"
+		}
+	},
+
+	"admin_page_delete_modal": {
+		"header": "Excluir página",
+		"subheader": "Essa ação não pode ser desfeita.",
+
+		"success_message": "A exclusão da página foi realizada com sucesso!"
+	},
+
+	"admin_page_create": {
+		"title": "Criar Página",
+		"header": "Criar Página"
+	},
+
+	"admin_page_update": {
+		"title": "Atualização da página",
+		"header": "Atualização da página"
+	},
+
+	"admin_packages": {
+		"title": "Gerenciamento de Pacotes",
+		"menu": "Pacote",
+		"header": "Gerenciamento de Pacotes",
+		"create": "Criar Pacote",
+		"header_settings": "Configurações do pacote",
+		"subheader_settings": "Escolha quais recursos ativar para este pacote.",
+
+		"table": {
+			"name": "Nome do Pacote",
+			"custom_help": "Pacotes personalizados podem ser definidos diretamente na página Atualização do Usuário.",
+			"monthly_price": "Preço Mensal",
+			"annual_price": "Preço Anual",
+			"users": "Usuários",
+			"is_enabled": "Status"
+		},
+
+		"input": {
+			"trial": {
+				"name": "Nome",
+				"days": "Dias",
+				"days_help": "O número de dias em que o pacote de avaliação pode ser usado."
+			},
+
+			"free": {
+				"name": "Nome"
+			},
+
+			"name": "Nome do Pacote",
+			"monthly_price": "Preço Mensal (%s)",
+			"annual_price": "Preço Anual (%s)",
+			"is_enabled": "Habilitar",
+
+			"projects_limit": "Limite total de projetos",
+			"projects_limit_help": "Defina -1 para ilimitado.",
+			"biolinks_limit": "Limite total de Bio Links",
+			"biolinks_limit_help": "A quantidade total de páginas de Bio Links que um usuário pode criar. Defina -1 para ilimitado.",
+			"links_limit": "Limite total de links",
+			"links_limit_help": "A quantidade total de links que um usuário pode criar (links encurtados). Defina -1 para ilimitado.",
+			"no_ads": "Sem Ads",
+			"no_ads_help": "Ativar isso fará com que todas as pessoas que possuem este pacote não vejam anúncios.",
+			"removable_branding": "Marca de rodapé removível",
+			"removable_branding_help": "Isso permite que as pessoas removam a marca do rodapé dos Bio Links.",
+			"custom_branding": "Marca de rodapé personalizada",
+			"custom_branding_help": "Isso permite que as pessoas adicionem sua marca personalizada ao rodapé dos Bio Links.",
+			"custom_colored_links": "Links coloridos",
+			"custom_colored_links_help": "Dá ao usuário a capacidade de personalizar a cor de seus links de Bio Links.",
+			"statistics": "Estastísticas avançadas",
+			"statistics_help": "Dá ao usuário a capacidade de verificar estatísticas mais detalhadas e selecionar o período",
+			"google_analytics": "Google Analytics",
+			"google_analytics_help": "Dá ao usuário a capacidade de adicionar o Google Analytics em suas páginas de Bio Links.",
+			"facebook_pixel": "Facebook Pixel",
+			"facebook_pixel_help": "Dá ao usuário a capacidade de adicionar pixel do Facebook em suas páginas de Bio Links.",
+			"custom_backgrounds": "Customização do plano de fundo",
+			"custom_backgrounds_help": "Dá ao usuário a capacidade de adicionar planos de fundo personalizados em suas páginas de Bio Links (cores, gradientes e imagens reais).",
+			"verified": "Marca de verificação verificada",
+			"verified_help": "Dá ao usuário a marca de seleção verificada em todas as suas páginas Bio Links.",
+			"scheduling": "Agendamento de Links",
+			"scheduling_help": "Dá ao usuário a capacidade de agendar links."
+		}
+	},
+
+	"admin_package_create": {
+		"title": "Criar páginas",
+		"menu": "Criar pacote",
+		"header": "Crie um novo pacote"
+	},
+
+	"admin_package_update": {
+		"title": "Editar pacotes",
+		"header": "Editar %s pacote",
+
+		"update_users_package_settings": {
+			"header": "Atualizar assinantes de pacotes",
+			"subheader": "Ao atualizar os assinantes do pacote, você substituirá todas as configurações atuais pelas configurações salvas deste pacote."
+		}
+	},
+
+	"admin_payments": {
+		"title": "Lista de pagamentos",
+		"header": "Lista de Pagamentos",
+		"menu": "Pagamentos",
+
+		"table": {
+			"processor": "Processador",
+			"user_email": "Usuário",
+			"email": "Email",
+			"user": "Usuário",
+			"date": "Data",
+			"name": "Nome completo",
+			"amount": "Montante",
+			"currency": "",
+			"recurring": "Recorrente",
+			"one_time": "One Time",
+			"stripe": "Stripe",
+			"paypal": "PayPal"
+		}
+	},
+
+	"admin_index": {
+		"title": "Painel de controle do Admin",
+		"menu": "Painel de controle",
+		"header": "Painel de controle",
+
+		"display": {
+			"clicks_month": "Cliques em links deste mês",
+			"clicks": "Total de cliques no link",
+			"payments_month": "Pagamentos este mês",
+			"payments": "Total de pagamentos",
+			"earnings_month": "Ganhos este mês",
+			"earnings": "Ganhos totais",
+			"active_users_month": "Usuários ativos este mês",
+			"active_users": "Total de usuários",
+			"latest_users": "Contas mais recentes",
+			"latest_payments": "Pagamentos mais recentes"
+		},
+
+		"table": {
+			"username": "Nome do usuário",
+			"name": "Nome",
+			"email": "Email",
+			"type": "Tipo",
+			"date": "Data",
+			"actions": "Ações"
+		},
+
+		"users": {
+			"header": "Últimos usuários",
+
+			"user": "Usuário"
+		},
+
+		"payments": {
+			"header": "Últimos pagamentos",
+
+			"user": "Usuário",
+			"payment": "Pagamento"
+		}
+	},
+
+	"admin_users": {
+		"title": "Gerenciamento de usuários",
+		"header": "Gerenciamento de usuários",
+		"menu": "Usuários",
+
+		"table": {
+			"username": "Nome do usuário",
+			"name": "Nome",
+			"email": "Email",
+			"active": "Status",
+			"package_id": "Pacote",
+			"registration_date": "Reg. Data",
+			"actions": "ações"
+		},
+
+		"tooltip": {
+			"admin": "Admin",
+			"owner": "Proprietário(a)",
+			"package": "pacote atual"
+		},
+
+		"info_message": {
+			"confirm_delete": "Ao excluir este usuário, tudo o que estiver vinculado a esse usuário será excluído!"
+		},
+
+		"error_message": {
+			"self_delete": "Você não pode se excluir!",
+			"self_status": "Você não pode mudar seu próprio status!"
+		},
+
+		"display": {
+			"admin": "Admin",
+			"search_placeholder": "Pesquise por nome de usuário, nome ou email."
+		}
+	},
+
+	"admin_user_login_modal": {
+		"header": "Faça login como este usuário",
+		"subheader": "Ao fazer login como outro usuário, você será desconectado da conta atual e totalmente conectado a esse usuário.",
+
+		"success_message": "Login efetuado com sucesso como% s! Para sair dessa conta, basta usar a função de logout."
+	},
+
+	"admin_user_create": {
+		"title": "Criar usuário",
+		"header": "Criar Usuário",
+		"menu": "Criar Usuário",
+
+		"form": {
+			"name": "Nome",
+			"name_placeholder": "Seu nome completo",
+			"email": "Email",
+			"email_placeholder": "email@domain.com",
+			"password": "Senha",
+			"password_placeholder": "Senha",
+			"repeat_password": "Repetir senha"
+		},
+
+		"error_message": {
+			"username_length": "O nome de usuário deve ter entre 3 e 32 caracteres!",
+			"name_length": "O nome deve ter entre 3 e 32 caracteres!",
+			"email_exists": "Este email já está sendo usado!",
+			"invalid_email": "Você digitou um email inválido!",
+			"short_password": "A senha é muito curta, você deve ter pelo menos 6 caracteres!",
+			"passwords_not_matching": "As senhas inseridas não correspondem",
+			"username_characters": "Você só pode usar letras, dígitos e o '.', '_' caracteres para o campo de nome de usuário"
+		},
+
+		"success_message": {
+			"created": "A conta foi criada!"
+		}
+	},
+
+	"admin_user_update": {
+		"title": "Editar Usuário",
+		"header": "Editar Usuário",
+
+		"main": {
+			"username": "Nome do usuário",
+			"name": "Nome",
+			"email": "Email",
+			"status": "Status da Conta",
+			"status_active": "Ativo",
+			"status_disabled": "Desativado",
+			"type": "Privilégios de usuário",
+			"type_help": "Os usuários administradores terão os mesmos privilégios que você, tenha cuidado!",
+			"type_admin": "Admin",
+			"type_user": "Usuário"
+		},
+
+		"package": {
+			"header": "Pacote",
+			"header_help": "Altere e atualize o pacote do usuário.",
+			"package_id": "Pacote atual",
+			"package_expiration_date": "Data de validade do pacote",
+			"package_trial_done": "Avaliação do pacote concluída"
+		},
+
+		"change_password": {
+			"header": "Mudar a senha",
+			"header_help": "Deixe em branco se não quiser alterar a senha!",
+			"new_password": "Nova senha",
+			"repeat_password": "Repetir a senha"
+		},
+
+		"error_message": {
+			"name_length": "O nome deve ter entre 3 e 32 caracteres!",
+			"invalid_account": "Essa conta não foi encontrada!",
+			"email_exists": "Lamentamos, mas esse e-mail já está sendo usado!",
+			"invalid_email": "Você digitou um email inválido!",
+			"short_password": "Sua senha é muito curta, você deve ter pelo menos 6 caracteres!",
+			"passwords_not_matching": "Suas senhas inseridas não correspondem!"
+		}
+	},
+
+	"admin_user_view": {
+		"title": "Ver Usuário",
+		"header": "Ver Usuário",
+
+		"main": {
+			"points": "Pontos Atuais",
+			"ip": "IP",
+			"name": "Nome",
+			"email": "Email",
+			"status": "Status da Conta",
+			"status_active": "Ativo",
+			"status_disabled": "Desativado",
+			"type": "Privilégios de usuários",
+			"type_help": "Os usuários administradores terão os mesmos privilégios que você, tenha cuidado!",
+			"type_admin": "Admin",
+			"type_user": "Usuário",
+			"new_password": "Nova senha",
+			"repeat_password": "Repetir senha",
+			"last_activity": "Última ativação",
+			"last_user_agent": "Último agente do usuário",
+			"package_trial_done": "Avaliação do pacote concluída",
+			"package": "Pacote atual",
+			"package_expiration_date": "Data de validade do pacote",
+			"total_logins": "Total de logins",
+			"language": "Linguagem"
+		},
+
+		"payments": {
+			"header": "Pagamentos",
+
+			"username": "Nome do usuário",
+			"date": "Data",
+			"expiration_date": "Data de validade",
+			"no_expiration_date": "N/A",
+			"type": "Tipo",
+			"processor": "",
+			"email": "Email",
+			"name": "Nome completo",
+			"amount": "Montante",
+			"currency": "",
+			"nr": "#"
+		},
+
+		"logs": {
+			"header": "Última atividade 📚",
+			"subheader": "Última atividade registrada",
+			"type": "Tipo",
+			"ip": "IP",
+			"date": "Data"
+		},
+
+		"info_message": {
+			"no_payments": "No momento não há transações para mostrar..."
+		}
+
+	},
+
+	"admin_links": {
+		"title": "Gerenciamento de Links",
+		"header": "Gerenciamento de Links",
+		"subheader": "Links que foram criados pelos usuários em sua plataforma.",
+		"menu": "Links",
+
+		"table": {
+			"type": "Tipo",
+			"email": "Usuário",
+			"url": "URL",
+			"clicks": "Cliques",
+			"is_enabled": "Status",
+			"date": "Data",
+			"actions": "Ações"
+		},
+
+		"tooltip": {
+			"admin": "Admin",
+			"owner": "Propritário(a)",
+			"package": "Pacote atual do proprietário"
+		},
+
+		"info_message": {
+			"confirm_delete": "Ao excluir este link, tudo o que estiver associado a esse link será excluído!"
+		},
+
+		"display": {
+			"location_url": "Abrir Link",
+			"search_placeholder": "Pesquise por nome ou email..."
+		}
+	},
+
+	"admin_domains": {
+		"title": "Gerenciamento de domínios personalizados",
+		"header": "Gerenciamento de domínios personalizados",
+		"subheader": "Domínios personalizados para os usuários usarem, se precisarem ou quiserem.",
+		"menu": "Domínios personalizados",
+
+		"table": {
+			"type": "Tipo",
+			"host": "URL",
+			"links": "Links",
+			"date": "Data",
+			"actions": "Ações"
+		},
+
+		"info_message": {
+			"confirm_delete": "Ao excluir este domínio, tudo o que estiver associado a esse domínio (incluindo os links) será excluído!"
+		},
+
+		"display": {
+			"type_global": "Global",
+			"search_placeholder": "Procurar por nome ou por email..."
+		}
+	},
+
+	"admin_domain_create": {
+		"title": "Adicionar domínio personalizado",
+		"header": "Adicionar domínio personalizado",
+		"subheader": "Certifique-se de ler corretamente o <a href=\"https://altumcode.link/biolinks-docs\">Documentation</a> sobre como configurar vários domínios.",
+		"menu": "Adicionar domínio personalizado",
+
+		"form": {
+			"scheme": "Esquema",
+			"host": "Domínio/Subdomínio",
+			"host_placeholder": "domain.com",
+			"host_help": "Somente <code>subdomain.domain.com</code> e <code>domain.com</code> formatos são permitidos (subdomínios ou domínios raiz).",
+			"create": "Adicionar Domínio"
+		},
+
+		"success_message": {
+			"created": "Domínio personalizado foi criado!"
+		}
+	},
+
+	"admin_domain_update": {
+		"title": "Atualizar domínio personalizado",
+		"header": "Atualizar domínio personalizado",
+		"subheader": "Certifique-se de ler corretamente a <a href=\"https://altumcode.link/biolinks-docs\">Documentação</a> sobre como configurar vários domínios.",
+		"menu": "Atualizar domínio personalizado"
+	},
+
+	"admin_settings": {
+		"title": "Configurações do site",
+		"menu": "Configurações do site",
+		"header": "Configurações do site",
+
+		"tab": {
+			"main": "Principal",
+			"links": "Links",
+			"payment": "Pagamento",
+			"business": "Negócio",
+			"facebook": "Entrar com o Facebook",
+			"instagram": "Entrar com Instagram",
+			"captcha": "Captcha",
+			"ads": "Ads",
+			"socials": "Sociais",
+			"smtp": "SMTP",
+			"custom": "Customização JS / CSS",
+			"email_notifications": "Notificação de email",
+			"cron": "Cron"
+		},
+
+		"main": {
+			"title": "Título do website",
+			"default_language": "Linguagem padrão",
+			"default_language_help": "Para adicionar mais idiomas, consulte a documentação.",
+			"logo": "Logo",
+			"logo_help": "jpg, jpeg, png e svg são aceitos. Tamanhos recomendados: Altura máxima de 40px e transparente.",
+			"logo_remove": "Remover o Logo",
+			"favicon": "Favicon",
+			"favicon_help": "jpg, jpeg, png e ico são ceitos aceitos.",
+			"favicon_remove": "Remover Favicon",
+			"email_confirmation": "Confirmação de registro via e-mail",
+			"register_is_enabled": "O registro está ativado",
+			"register_is_enabled_help": "Desativar/ativar o registro do usuário, dependendo do uso da plataforma.",
+			"default_timezone": "Fuso horário padrão",
+			"index_url": "URL de índice personalizado",
+			"index_url_help": "Defina o URL completo(ex: https://google.com/) do índice personalizado se você deseja desativar completamente a página de destino padrão do produto. Útil quando você deseja ter sua própria página de destino. Deixe em branco para desativar.",
+			"terms_and_conditions_url": "URL dos Termos e Condições",
+			"terms_and_conditions_url_help": "Link para os termos e condições do site. Pode ser um link criado com o criador do Pages na barra lateral.",
+			"privacy_policy_url": "URL com Política de Privacidade",
+			"privacy_policy_url_help": "Link para a política de privacidade do site. Pode ser um link criado com o criador do Pages na barra lateral."
+		},
+
+		"links": {
+			"blacklisted_domains": "Domínios na lista negra",
+			"blacklisted_domains_help": "Valores separados por vírgula de domínios (domain.com, domain2.com ..etc ). As pessoas não poderão reduzir/adicionar nenhum domínio incluído nesta lista.",
+			"blacklisted_keywords": "Palavras-chave na lista negra",
+			"blacklisted_keywords_help": "Valores separados por vírgula de domínios ( word1, word2, word3 ..etc ). As pessoas não poderão usar nenhum URL personalizado incluído nesta lista.",
+
+			"phishtank": "Phishtank API",
+			"phishtank_help": "Phishtank.com é um banco de dados on-line de URLs de phishing. A integração permitirá a verificação de URLs antes que os usuários tentem abreviá-los e garantir que eles não sejam sites de phishing.",
+			"phishtank_is_enabled": "Está ativado",
+			"phishtank_api_key": "Phishtank API Key",
+			"phishtank_api_key_help": "Por favor, consulte a <a href=\"https://altumcode.link/biolinks-docs\">Documentação</a> para descobrir onde conseguir a chave.",
+
+			"google_safe_browsing": "API de navegação segura do Google",
+			"google_safe_browsing_help": "A integração permitirá a verificação de URLs antes que os usuários tentem fazer um curto-circuito e garantir que não sejam sites suspeitos ou perigosos.",
+			"google_safe_browsing_is_enabled": "Está ativado",
+			"google_safe_browsing_api_key": "Chave da API de Navegação segura do Google",
+			"google_safe_browsing_api_key_help": "Por favor, consulte a <a href=\"https://altumcode.link/biolinks-docs\">Documentação</a> para descobrir onde conseguir a chave."
+		},
+
+		"payment": {
+			"is_enabled": "O sistema de pagamentos está ativado",
+			"is_enabled_help": "Desativar o sistema de pagamento removerá todas as opções para os usuários atualizarem suas contas ou ver qualquer informação relacionada ao pagamento.",
+			"type": "Tipo",
+			"type_help": "",
+			"type_one_time": "Uma Vez",
+			"type_recurring": "Recorrente",
+			"type_both": "Ambos",
+			"brand_name": "Marca",
+			"brand_name_help": "O nome da marca será usado para exibir a marca quando os usuários comprarem através de meios de pagamento. (ex: paypal)",
+			"currency": "Moeda",
+			"currency_help": "Código da moeda para os pagamentos (ex: USD).",
+
+			"paypal": "Configurações do Paypal",
+			"paypal_help": "Por favor, consulte a <a href=\"https://altumcode.link/biolinks-docs\">Documentação</a> para descobrir onde conseguir as chaves.",
+			"paypal_is_enabled": "Está ativado",
+			"paypal_mode": "Modo",
+			"paypal_mode_help": "live - produção, sandbox - fins de teste",
+			"paypal_client_id": "ID do Cliente",
+			"paypal_secret": "Segredo",
+
+			"stripe_help": "Por favor, consulte a <a href=\"https://altumcode.link/biolinks-docs\">Documentação</a> para descobrir onde conseguir as chaves.",
+			"stripe": "Configurações de distribuição",
+			"stripe_is_enabled": "Está ativado",
+			"stripe_publishable_key": "Chave publicável",
+			"stripe_secret_key": "Chave secreta",
+			"stripe_webhook_secret": "Segredo do Webhook"
+		},
+
+		"business": {
+			"header": "Detalhes da empresa",
+			"subheader": "Esses detalhes serão usados ao gerar faturas para o usuário.",
+			"invoice_is_enabled": "O sistema de faturas está ativado",
+			"invoice_is_enabled_help": "Essa opção determinará se os usuários poderão ver as faturas dos pagamentos ou não.",
+			"name": "Nome",
+			"address": "Endereço",
+			"city": "Cidade",
+			"county": "País",
+			"zip": "ZIP",
+			"country": "País",
+			"email": "Email",
+			"phone": "Telefone",
+			"tax_type": "Tipo de Taxa",
+			"tax_type_placeholder": "ex: VAT",
+			"tax_id": "ID da Taxa",
+			"custom_key_one": "Chave de campo personalizado",
+			"custom_value_one": "Valor do campo personalizado",
+			"custom_key_two": "Chave de campo personalizado",
+			"custom_value_two": "Valor do campo personalizado"
+		},
+
+		"captcha": {
+			"recaptcha": "Google ReCaptcha",
+			"recaptcha_is_enabled": "Ativar o Google ReCaptcha",
+			"recaptcha_is_enabled_help": "Quando o Google Recaptcha estiver desativado, um captcha mais básico estará disponível.",
+			"recaptcha_public_key": "Chave pública",
+			"recaptcha_private_key": "Chave privada"
+		},
+
+		"facebook": {
+			"is_enabled": "Está ativado",
+			"app_id": "App Id",
+			"app_secret": "App Secret"
+		},
+
+		"instagram": {
+			"is_enabled": "Está ativado",
+			"client_id": "Client Id",
+			"client_secret": "Client Secret"
+		},
+
+		"ads": {
+			"ads_help": "Esses campos aceitam texto ou html.",
+
+			"header": "Cabeçalho",
+			"footer": "Rodapé"
+		},
+
+		"socials": {
+			"socials_help": "Links sociais a serem exibidos no rodapé do site. Digite apenas o ID/nome da página",
+			"facebook": "Facebook",
+			"twitter": "Twitter",
+			"instagram": "Instagram",
+			"youtube": "Youtube"
+		},
+
+		"smtp": {
+			"host": "Host",
+			"host_help": "Se não houver valores inseridos nesse campo, o sistema tentará usar a função de email padrão.",
+			"from": "Do email",
+			"from_help": "O email do qual os usuários recebem o email/o email de resposta (registro/ativação de email/senha perdida)",
+			"encryption": "Criptografia",
+			"port": "Porta",
+			"auth": "Autenticação",
+			"username": "Nome do usuário",
+			"password": "Senha"
+		},
+
+		"custom": {
+			"head_js": "Head Javascript",
+			"head_js_help": "Adicione seu próprio código js de rastreamento (ex: Google Analytics).",
+			"head_css": "CSS customizado",
+			"head_css_help": "Adicione CSS personalizado caso deseje substituir determinados estilos do site."
+		},
+
+		"email_notifications": {
+			"emails": "Emails a serem notificados",
+			"emails_help": "Emails que receberão uma notificação quando uma das ações inferiores for executada. Adicione endereços de email válidos separados por vírgula.",
+			"new_user": "Novo usuário",
+			"new_user_help": "Receba um email quando um novo usuário se registrar no site.",
+			"new_payment": "Novo Pagamento",
+			"new_payment_help": "Receba um email quando um novo pagamento for processado com sucesso."
+		},
+
+		"cron": {
+			"url": "URL do trabalho do Cron",
+			"url_help": "Este URL de tarefa cron também contém sua chave de acesso. Apenas chamadas com esse URL exato funcionarão.",
+
+			"reset_date": "Data da última redefinição - Impressões de notificações mensais"
+		},
+
+		"button": {
+			"test_email": "Testar configurações de email",
+			"test_email_help": "Ele enviará um email para o valor do <strong>From</strong> campo que você definiu acima. Certifique-se de primeiro salvar as configurações!"
+		},
+
+		"success_message": {
+			"saved": "As configurações do site foram salvas!",
+			"email": "O email de teste foi enviado com sucesso!"
+		},
+
+		"error_message": {
+			"email": "O email de teste falhou: %s"
+		}
+
+	},
+
+	"admin_statistics": {
+		"title": "Estatísticas do site",
+		"menu": "Estastísticas",
+		"header": "Estastísticas",
+		"subheader": "Veja como seu site evolui ao longo do tempo.",
+
+		"display": {
+			"date_range": "Período"
+		},
+
+		"sales": {
+			"header": "Vendas geradas pelo seu site",
+			"subheader": "%s vendas e gerou uma receita de %s %s",
+			"no_sales": "Você ainda não tem vendas. Continue indo!",
+			"chart_total_sales": "Vendas totais",
+			"chart_total_earned": "Total ganho"
+		},
+
+		"growth": {
+			"header": "Crescimento",
+			"subheader": "Crescimento diário do seu site.",
+			"chart_users": "Novos usuários",
+			"chart_projects": "Novos Projetos",
+			"chart_links": "Novos Links"
+		},
+
+		"track_links": {
+			"header": "Registrar Cliques",
+			"subheader": "Visitas/cliques nos links gerados no seu site.",
+			"impression": "Impressões",
+			"unique": "Únicos",
+			"clicks_chart": "Gráfico de cliques",
+
+			"location": "Localizações",
+			"location_help": "Países detectados que acessaram o link.",
+			"os": "Sistemas operacionais",
+			"os_help": "Descubra qual sistema operacional é o mais popular entre seus visitantes.",
+			"browser": "Navegadores",
+			"browser_help": "Encontre quais navegadores seus visitantes estão usando.",
+			"referer": "Referências",
+			"referer_help": "De onde vem o seu tráfego?",
+			"referer_direct": "Direto, E-mail, SMS"
+		},
+
+		"top_links": {
+			"header": "Tipos de Links de Uso",
+			"subheader": "Aqui você pode ver os tipos de links mais usados criados pelos usuários do seu site. (Essas estatísticas não se baseiam no período selecionado)",
+			"type": "Tipo de Link",
+			"total": "Total"
+		},
+
+		"top_packages": {
+			"header": "Pacotes mais usados",
+			"subheader": "Aqui você pode ver os tipos de pacotes mais usados pelos usuários do seu site. (Essas estatísticas não se baseiam no período selecionado)",
+			"package_id": "Pacote",
+			"total": "Total"
+		}
+	},
+
+	"notfound": {
+		"title": "Não encontrado",
+		"header": "404 Not Found",
+		"subheader": "Ta página que você está procurando não foi encontrada."
+	},
+
+	"create_project_modal": {
+		"header": "Criar novo projeto",
+		"subheader": "Um projeto pode gerenciar várias páginas de Biolinks e links encurtados.",
+
+		"input": {
+			"name": "Nome"
+		},
+
+		"success_message": {
+			"created": "O novo projeto foi criado!",
+			"deleted": "O projeto foi deletado!"
+		},
+
+		"error_message": {
+			"projects_limit": "Seu plano não permite a criação de mais projetos 😔."
+		}
+	},
+
+	"create_link_modal": {
+		"header": "Crie um novo link",
+		"subheader": "Reduza facilmente os links que você deseja. Mais configurações estão disponíveis após a criação do link.",
+
+		"input": {
+			"location_url": "URL longo",
+			"location_url_placeholder": "https://domain.com/demo/long-url-demo",
+			"url": "URL curto",
+			"url_placeholder": "seu-alias-personalizado",
+			"url_help": "Deixe em branco para um gerado aleatoriamente.",
+
+			"submit": "URL abreviado"
+		},
+
+		"error_message": {
+			"links_limit": "Seu plano excedeu a quantidade máxima de links.",
+			"url_exists": "O URL curto selecionado já existe. Por favor, escolha um diferente."
+		}
+	},
+
+	"create_biolink_modal": {
+		"header": "Crie uma nova página Bio Links",
+		"subheader": "Mais configurações estão disponíveis após a criação do Bio Links.",
+
+		"input": {
+			"url": "URL do Bio Link",
+			"url_placeholder": "seu-alias-personalizado",
+			"url_help": "Deixe em branco para um gerado aleatoriamente.",
+
+			"submit": "Criar página de Bio Link"
+		},
+
+		"error_message": {
+			"biolinks_limit": "Seu plano excedeu a quantidade máxima de Bio Links.",
+			"url_exists": "O URL selecionado já existe. Por favor, escolha um diferente."
+		}
+	},
+
+	"create_biolink_link_modal": {
+		"header": "Crie um novo link",
+		"subheader": "Reduza e adicione um novo link à sua página de Bio Link Mais configurações estão disponíveis após a criação do link.",
+
+		"input": {
+			"url": "Link curto",
+			"url_placeholder": "seu-alias-personalizado",
+			"url_help": "Deixe em branco para um gerado aleatoriamente.",
+			"location_url": "URL de destino",
+			"location_url_placeholder": "https://domain.com/demo/url-demo",
+			"name": "Nome",
+			"text_color": "Cor do Texto",
+			"background_color": "Cor de fundo",
+			"outline": "Esboço",
+			"icon": "Ícone",
+			"icon_placeholder": "ex: fab fa-instagram",
+			"icon_help": "Classe de ícone FontAwesome. Deixe em branco para nenhum ícone.",
+			"border_radius": "Contorno da forma",
+			"border_radius_straight": "Straight",
+			"border_radius_round": "Round",
+			"border_radius_rounded": "Rounded",
+			"animation": "Animação",
+
+			"submit": "Adicionar URL"
+		},
+
+		"error_message": {
+			"links_limit": "Seu plano excedeu a quantidade máxima de links.",
+			"url_exists": "O URL curto selecionado já existe. Por favor, escolha um diferente."
+		}
+	},
+
+	"create_biolink_youtube_modal": {
+		"header": "Adicionar um vídeo do YouTube",
+		"subheader": "Cole o URL do seu vídeo do YouTube e o mostraremos como um vídeo no seu perfil.",
+
+		"input": {
+			"location_url": "URL de vídeo do YouTube",
+			"location_url_placeholder": "https://www.youtube.com/watch?v=2a8PgqWrc_4",
+
+			"submit": "Adicionar Vídeo"
+		}
+	},
+
+	"create_biolink_twitch_modal": {
+		"header": "Adicionar um vídeo da Twitch",
+		"subheader": "Cole o seu URL do Twitch e o mostraremos como um vídeo em seu perfil.",
+
+		"input": {
+			"location_url": "URL da Twitch",
+			"location_url_placeholder": "https://www.twitch.tv/dota2ti",
+
+			"submit": "Adicionar Vídeo"
+		}
+	},
+
+	"create_biolink_vimeo_modal": {
+		"header": "Adicionar um vídeo do Vimeo",
+		"subheader": "Cole seu URL do Vimeo e o mostraremos como um vídeo em seu perfil.",
+
+		"input": {
+			"location_url": "URL do Vimeo",
+			"location_url_placeholder": "https://vimeo.com/43338103",
+
+			"submit": "Adicionar Vídeo"
+		}
+	},
+
+	"create_biolink_soundcloud_modal": {
+		"header": "Adicionar uma música do Soundcloud",
+		"subheader": "Cole o URL do Soundcloud e mostraremos como música reproduzível no seu perfil.",
+
+		"input": {
+			"location_url": "URL do Soundcloud",
+			"location_url_placeholder": "https://soundcloud.com/octobersveryown/duppy-freestyle",
+
+			"submit": "Adicionar"
+		}
+	},
+
+	"create_biolink_spotify_modal": {
+		"header": "Adicionar uma música/álbum do Spotify",
+		"subheader": "Cole o URL da sua música, álbum, programa ou episódio do Spotify e nós o mostraremos como um player no seu perfil.",
+
+		"input": {
+			"location_url": "URL do Spotify",
+			"location_url_placeholder": "https://open.spotify.com/track/5ry2OE6R2zPQFDO85XkgRb",
+
+			"submit": "Adicionar Link"
+		}
+	},
+
+	"datatable": {
+		"sEmptyTable": "Sem dados disponíveis na tabela",
+		"sInfo": "Mostrando _COMEÇAR_ao _FIM_ de _TOTAL_ entradas",
+		"sInfoEmpty": "Mostrando 0 a 0 de 0 entradas",
+		"sInfoFiltered": "(filtrado do total de entradas _MAX_)",
+		"sInfoPostFix": "",
+		"sInfoThousands": ",",
+		"sLengthMenu": "_MENU_",
+		"sLoadingRecords": "Carregando...",
+		"sProcessing": "<div class=\"spinner-grow\"><span class=\"sr-only\">Carregando...</span></div>",
+		"searchPlaceholder": "Procurar..",
+		"search": "",
+		"sZeroRecords": "Nenhum registro correspondente encontrado",
+		"oPaginate": {
+			"sFirst": "Primeiro",
+			"sLast": "Último",
+			"sNext": "Próximo",
+			"sPrevious": "Anterior"
+		},
+		"oAria": {
+			"sSortAscending": ": ativar para classificar a coluna ascendente",
+			"sSortDescending": ": ativar para classificar a coluna descendente"
+		}
+	}
+}

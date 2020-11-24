@@ -1,0 +1,1 @@
+[23-Nov-2020 20:05:03 America/Sao_Paulo] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'clioapp_biolink'@'localhost' (using password: YES) in C:\xampp\htdocs\clioapp\biolink\app\core\Database.php on line 15
